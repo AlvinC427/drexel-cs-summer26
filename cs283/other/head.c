@@ -11,8 +11,6 @@ main(int argc, char *argv[]) {
     n = 10;
     fp = stdin;
 
-    //"All output should go to the standard output"
-    //requiring putc over putchar implies handling streams properly
     if(argc > 3) {
         fprintf(stderr, "Usage: head [-n] [file]\n");
         return 1;
